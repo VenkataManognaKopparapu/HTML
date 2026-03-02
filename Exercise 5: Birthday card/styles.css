@@ -1,0 +1,102 @@
+img{
+    width: 150px;
+    border-radius: 50%;
+    border: 8px solid #a2d2ff;
+    
+}
+
+h1{
+    text-align: center;
+    display: block;
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+    color: rgb(217, 217, 217);
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: darkslategrey;
+    background: linear-gradient(beige, brown);
+}
+
+h3{
+    background-color:#a2d2ff;
+    padding: 5px 12px;
+    border-radius: 3px;
+    
+}
+
+h5{
+    background-color:#a2d2ff;
+    padding: 5px 12px;
+    border-radius: 3px;
+    margin-top: 0px;
+}
+
+#head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.gift-des{
+   text-align: center;
+}
+
+.gift-image{
+    display:block;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid rgb(136, 135, 135);
+    border-radius: 10px;
+    background-image: url(gift.jpg);
+    background-position: center;
+
+}
+
+.gift-section{
+    margin-top: 80px;
+}
+
+.gift-image:hover{
+    background-image: url(birthday.gif);
+    background-size: cover;
+}
+
+.gift-img{
+    display:block;
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid rgb(136, 135, 135);
+    border-radius: 10px;
+    background-image: url(gift.jpg);
+    background-position: center;
+   margin-bottom: 30px;
+
+}
+
+.gift-img:hover{
+    background-image: url(happy.gif);
+    background-size: cover;
+}
+
+.follow{
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    line-height: 20px;
+    color: rgb(217, 217, 217);
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+
+a{
+    text-shadow: none;
+}
